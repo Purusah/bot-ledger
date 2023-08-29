@@ -1,0 +1,28 @@
+{
+  "lock": false,
+  "imports": {
+    "std/": "https://deno.land/std@0.200.0/"
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "exclude": [
+      "./.git/",
+      "./.github/",
+      "./build/",
+      "./db/",
+      "./deno_cache/"
+    ]
+  },
+  "lint": {
+    "exclude": [
+      "./.git/",
+      "./.github/",
+      "./build/",
+      "./db/",
+      "./deno_cache/"
+    ]
+  },
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env bot.ts"
+  }
+}
